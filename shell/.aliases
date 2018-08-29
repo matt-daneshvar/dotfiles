@@ -1,0 +1,32 @@
+# Composer
+alias c="composer"
+alias cu="composer update"
+alias cr="composer require"
+alias ci="composer install"
+alias cda="composer dump-autoload -o"
+
+# PHPUnit
+alias p="phpunit"
+alias pf="phpunit --filter "
+
+# Laravel
+alias art="php artisan"
+alias mfs='php artisan migrate:fresh --seed'
+
+# OS
+alias hosts="sudo vi /etc/hosts"
+alias l="ls -laF"
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+# Git
+alias nah='git reset --hard;git clean -df'
+alias push='git push origin HEAD'
+alias push='git pull origin $(git rev-parse --abbrev-ref HEAD)'
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+# NPM
+alias ni="npm install"
+alias w="npm run watch"

@@ -1,0 +1,11 @@
+# Git / Commit everything
+function commit() {
+  commitMessage="$1"
+
+  if [ "$commitMessage" = "" ]; then
+     commitMessage="commit"
+  fi
+
+  git add .
+  eval "git commit -a -m '${commitMessage}'"
+}
