@@ -1,3 +1,10 @@
+# Linux
+alias aliases="gedit ~/.bashrc"
+alias hosts="sudo gedit /etc/hosts"
+
+# Homestead
+alias homestead="gedit ~/Homestead/Homestead.yaml"
+
 # Composer
 alias c="composer"
 alias cu="composer update"
