@@ -27,7 +27,7 @@ alias localip="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{
 # Git
 alias nah='git reset --hard;git clean -df'
 alias push='git push origin HEAD'
-alias push='git pull origin $(git rev-parse --abbrev-ref HEAD)'
+alias pull='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # NPM
