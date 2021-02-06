@@ -5,13 +5,6 @@ alias hosts="sudo gedit /etc/hosts"
 # Homestead
 alias homestead="gedit ~/Homestead/Homestead.yaml"
 
-# Composer
-alias c="composer"
-alias cu="composer update"
-alias cr="composer require"
-alias ci="composer install"
-alias cda="composer dump-autoload -o"
-
 # PHPUnit
 alias p="phpunit"
 alias pf="phpunit --filter "
@@ -31,5 +24,4 @@ alias pull='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # NPM
-alias ni="npm install"
 alias w="npm run watch"
