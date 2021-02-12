@@ -2,6 +2,9 @@
 alias aliases="gedit ~/.bashrc"
 alias hosts="sudo gedit /etc/hosts"
 
+# SSH
+alias publickey="pbcopy < ~/.ssh/id_rsa.pub"
+
 # Homestead
 alias homestead="gedit ~/Homestead/Homestead.yaml"
 
